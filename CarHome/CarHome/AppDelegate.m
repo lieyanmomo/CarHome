@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LYBaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 1.创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置根控制器
+    LYBaseViewController *baseController = [[LYBaseViewController alloc] init];
+    self.window.rootViewController = baseController;
+    
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

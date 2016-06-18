@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  CarHome
+//
+//  Created by zhanghaibin on 16/6/18.
+//  Copyright © 2016年 zhanghaibin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/** 颜色处理 */
+#define LYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LYColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define LYRandomColor LYColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define LYGrayColor(v) LYColor(v, v, v)
+
+#endif

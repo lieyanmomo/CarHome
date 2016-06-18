@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		655C00781D1513BE00A66CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655C00771D1513BE00A66CED /* main.m */; };
-		655C007B1D1513BE00A66CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655C007A1D1513BE00A66CED /* AppDelegate.m */; };
-		655C007E1D1513BE00A66CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655C007D1D1513BE00A66CED /* ViewController.m */; };
 		655C00811D1513BE00A66CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655C007F1D1513BE00A66CED /* Main.storyboard */; };
 		655C00841D1513BE00A66CED /* CarHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 655C00821D1513BE00A66CED /* CarHome.xcdatamodeld */; };
 		655C00861D1513BE00A66CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655C00851D1513BE00A66CED /* Assets.xcassets */; };
 		655C00891D1513BE00A66CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655C00871D1513BE00A66CED /* LaunchScreen.storyboard */; };
+		655C00AE1D152A2900A66CED /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655C00AD1D152A2800A66CED /* LYBaseViewController.m */; };
+		655C00B11D152A8500A66CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655C00B01D152A8500A66CED /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		655C00731D1513BE00A66CED /* CarHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655C00771D1513BE00A66CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		655C00791D1513BE00A66CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		655C007A1D1513BE00A66CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		655C007C1D1513BE00A66CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		655C007D1D1513BE00A66CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		655C00801D1513BE00A66CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		655C00831D1513BE00A66CED /* CarHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarHome.xcdatamodel; sourceTree = "<group>"; };
 		655C00851D1513BE00A66CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655C00881D1513BE00A66CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		655C008A1D1513BE00A66CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655C00AC1D152A2800A66CED /* LYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
+		655C00AD1D152A2800A66CED /* LYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
+		655C00AF1D152A8500A66CED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		655C00B01D152A8500A66CED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		655C00B31D15321600A66CED /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +61,15 @@
 		655C00751D1513BE00A66CED /* CarHome */ = {
 			isa = PBXGroup;
 			children = (
-				655C00791D1513BE00A66CED /* AppDelegate.h */,
-				655C007A1D1513BE00A66CED /* AppDelegate.m */,
-				655C007C1D1513BE00A66CED /* ViewController.h */,
-				655C007D1D1513BE00A66CED /* ViewController.m */,
-				655C007F1D1513BE00A66CED /* Main.storyboard */,
-				655C00851D1513BE00A66CED /* Assets.xcassets */,
-				655C00871D1513BE00A66CED /* LaunchScreen.storyboard */,
-				655C008A1D1513BE00A66CED /* Info.plist */,
-				655C00821D1513BE00A66CED /* CarHome.xcdatamodeld */,
+				655C00A31D15260500A66CED /* ShouYe */,
+				655C00941D15260500A66CED /* LunTan */,
+				655C009C1D15260500A66CED /* Me */,
+				655C00A71D15260500A66CED /* ZhaoChe */,
+				655C00901D15260500A66CED /* JiangJia */,
+				655C00981D15260500A66CED /* Main */,
+				655C00A01D15260500A66CED /* Other */,
+				655C00AF1D152A8500A66CED /* AppDelegate.h */,
+				655C00B01D152A8500A66CED /* AppDelegate.m */,
 				655C00761D1513BE00A66CED /* Supporting Files */,
 			);
 			path = CarHome;
@@ -77,9 +78,210 @@
 		655C00761D1513BE00A66CED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				655C00851D1513BE00A66CED /* Assets.xcassets */,
+				655C00871D1513BE00A66CED /* LaunchScreen.storyboard */,
+				655C007F1D1513BE00A66CED /* Main.storyboard */,
+				655C008A1D1513BE00A66CED /* Info.plist */,
+				655C00821D1513BE00A66CED /* CarHome.xcdatamodeld */,
 				655C00771D1513BE00A66CED /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		655C00901D15260500A66CED /* JiangJia */ = {
+			isa = PBXGroup;
+			children = (
+				655C00911D15260500A66CED /* Controller */,
+				655C00921D15260500A66CED /* Model */,
+				655C00931D15260500A66CED /* View */,
+			);
+			path = JiangJia;
+			sourceTree = "<group>";
+		};
+		655C00911D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C00921D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C00931D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655C00941D15260500A66CED /* LunTan */ = {
+			isa = PBXGroup;
+			children = (
+				655C00951D15260500A66CED /* Controller */,
+				655C00961D15260500A66CED /* Model */,
+				655C00971D15260500A66CED /* View */,
+			);
+			path = LunTan;
+			sourceTree = "<group>";
+		};
+		655C00951D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C00961D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C00971D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655C00981D15260500A66CED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				655C00991D15260500A66CED /* Controller */,
+				655C009A1D15260500A66CED /* Model */,
+				655C009B1D15260500A66CED /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		655C00991D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				655C00AC1D152A2800A66CED /* LYBaseViewController.h */,
+				655C00AD1D152A2800A66CED /* LYBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C009A1D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C009B1D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655C009C1D15260500A66CED /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				655C009D1D15260500A66CED /* Controller */,
+				655C009E1D15260500A66CED /* Model */,
+				655C009F1D15260500A66CED /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		655C009D1D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C009E1D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C009F1D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655C00A01D15260500A66CED /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				655C00B31D15321600A66CED /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		655C00A31D15260500A66CED /* ShouYe */ = {
+			isa = PBXGroup;
+			children = (
+				655C00A41D15260500A66CED /* Controller */,
+				655C00A51D15260500A66CED /* Model */,
+				655C00A61D15260500A66CED /* View */,
+			);
+			path = ShouYe;
+			sourceTree = "<group>";
+		};
+		655C00A41D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C00A51D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C00A61D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655C00A71D15260500A66CED /* ZhaoChe */ = {
+			isa = PBXGroup;
+			children = (
+				655C00A81D15260500A66CED /* Controller */,
+				655C00A91D15260500A66CED /* Model */,
+				655C00AA1D15260500A66CED /* View */,
+			);
+			path = ZhaoChe;
+			sourceTree = "<group>";
+		};
+		655C00A81D15260500A66CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655C00A91D15260500A66CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655C00AA1D15260500A66CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +355,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655C007E1D1513BE00A66CED /* ViewController.m in Sources */,
-				655C007B1D1513BE00A66CED /* AppDelegate.m in Sources */,
+				655C00AE1D152A2900A66CED /* LYBaseViewController.m in Sources */,
 				655C00781D1513BE00A66CED /* main.m in Sources */,
 				655C00841D1513BE00A66CED /* CarHome.xcdatamodeld in Sources */,
+				655C00B11D152A8500A66CED /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +471,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = CarHome/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = CarHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-zhanghaibin.CarHome";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -282,9 +486,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = CarHome/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = CarHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-zhanghaibin.CarHome";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LYBaseViewController.h
 //  CarHome
 //
 //  Created by zhanghaibin on 16/6/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LYBaseViewController : UITabBarController
 
 @end
-
